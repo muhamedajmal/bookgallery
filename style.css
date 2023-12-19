@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+header{
+    background-color: rgb(29, 16, 3);
+    height: 150px;
+    
+}
+header h1{
+    padding-top: 30px;
+    color: white;
+    font-size: 58px;
+
+}
+h2{
+    margin-top: 0;
+    color: rgb(29, 16, 3);
+    font-size: 38px;
+    font-family: Beau Rivage;
+    background-color: rgb(200, 174, 125);
+    position: sticky;
+    top: 0;
+
+}
+ #banner{
+    margin-top: 20px;
+    background-image: url('https://weblog.west-wind.com/images/2022/Moving-old-Dynamic-Compilation-Code-to-use-Roslyn/LibraryBanner.jpg');
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+ }
+    
+
+
+.row{
+    background-color: rgb(200, 174, 125);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.col{
+    height: 450px;
+    width: 300px;
+    border: 5px ridge white;
+    border-radius: 20px;
+    background-color: rgb(29, 16, 3);
+    margin: 40px;
+    color: bisque;
+}
+img{
+    width: 150px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 2px solid rgb(75, 52, 44);
+    border-radius: 10px;
+}
+.content{
+    margin: 10px;
+    background-color: rgb(92, 76, 52);
+    border-radius: 10px;
+}
+p{
+    font-size:x-small;
+}
+button{
+    background-color: rgb(222, 183, 131);
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+body{
+    background-color: rgb(29, 16, 3);
+}
+.col:hover{
+    background-color: rgb(60, 34, 7);
+    box-shadow: 10px;
+}
